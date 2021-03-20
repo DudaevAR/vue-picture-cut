@@ -33,7 +33,7 @@ export default class PhotoRoot{
   onPhotoChange?: PhotoChange;
   // 记录滚轮触发时间
   private wheelTime = 0;
-  private wheelTimeOut = 0;
+  private wheelTimeOut: any = 0;
   // 记录滚轮状态
   private wheelstatus = false;
 

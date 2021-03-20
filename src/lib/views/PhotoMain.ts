@@ -46,7 +46,7 @@ export default class PhotoMain implements PhotoBasic{
 
   private animation: AnimationInterface | undefined = undefined;
 
-  private scaleTimer: number | null = null
+  private scaleTimer: any = null
 
   private loadingEvent?: (loading: boolean) => void;
 
